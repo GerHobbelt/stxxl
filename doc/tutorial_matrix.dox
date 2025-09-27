@@ -27,10 +27,10 @@ Can be some specialized subclass. We used matrix_swappable_block as a subclass w
 \code
 // Define integer matrix
 
-// template paramter <ValueType, BlockSideLength>
+// template parameter <ValueType, BlockSideLength>
 typedef stxxl::block_scheduler<stxxl::matrix_swappable_block<int, 32> > block_schedular_type;
 
-// template paramter <ValueType, BlockSideLength>
+// template parameter <ValueType, BlockSideLength>
 typedef stxxl::matrix<int, 32> matrix_type;
 
 // construct block schedular object which uses 64 MiB internal memory for caching
